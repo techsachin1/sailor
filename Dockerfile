@@ -16,4 +16,6 @@ RUN rm apache-tomcat-9.0.71.tar.gz
 COPY target/sailor.war ${TOMCAT_HOME}/webapps
 COPY run.sh /tmp
 RUN chmod u+x /tmp/run.sh
-ENTRYPOINT [ "/tmp/run.sh" ]
+ENTRYPOINT [ "/tmp/run.sh" 
+
+Sachin]
