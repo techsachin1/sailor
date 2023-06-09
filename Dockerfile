@@ -17,5 +17,3 @@ COPY target/sailor.war ${TOMCAT_HOME}/webapps
 COPY run.sh /tmp
 RUN chmod u+x /tmp/run.sh
 ENTRYPOINT [ "/tmp/run.sh" 
-
-Sachin]
